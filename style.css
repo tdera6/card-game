@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rebeccapurple;
+}
+
+.main-board {
+  width: 1800px;
+  height: 1000px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ai-hand {
+  height: 20%;
+  width: 100%;
+  background-color: chartreuse;
+}
+
+.board {
+  height: 60%;
+  width: 100%;
+  background-color: palegoldenrod;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.player-hand {
+  height: 30%;
+  width: 100%;
+  background-color: navy;
+}
+
+.cards-holder {
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-holder {
+  width: 175px;
+  height: 250px;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: darkorchid;
+  color: white;
+  border-radius: 20px;
+}
+
+.card-img {
+  height: 40%;
+}
+
+.card-description {
+  height: 60%;
+  padding: 20px;
+  background-color: antiquewhite;
+}
+
+.health {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: darkred;
+}
+
+.mana {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.power {
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: darkgoldenrod;
+}
